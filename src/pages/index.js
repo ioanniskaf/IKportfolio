@@ -35,7 +35,7 @@ export default function Home() {
               '/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
                 As a Electrical Engineer and Computer Scientist I have always been fancinated by Data Analysis because it provides me with a profound sense of discovery and empowerment.
-                There's a thrilling adventure in exploring raw data, uncovering hidden patterns, and extracting meaningful insights.
+                There&apos;s a thrilling adventure in exploring raw data, uncovering hidden patterns, and extracting meaningful insights.
                 The ability to transform complex, seemingly unrelated information into a coherent story is nothing short of magical. 
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>

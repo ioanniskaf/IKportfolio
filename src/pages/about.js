@@ -24,14 +24,14 @@ const about = () => {
                     <div className="col-span-3 xl:col-span-4 md:col-span-8 flex flex-col items-start justify-start md:order-2">
                         <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
                         <p className="font-medium">
-                            Hello, I'm Ioannis, an Electrical Engineer and Computer Scientinst
+                            Hello, I&apos;m Ioannis, an Electrical Engineer and Computer Scientinst
                             with 6 years of working exprerience in Data Analysis , Data Engineering and Telecommunications
                             and a passion for Coding, Web Development and learning.
                         </p>
                         <p className="font-medium my-4">
                         I believe that through data analysis I can make informed decisions, solve intricate problems, and drive impactful changes. 
                         It allows me to bring order to chaos, find clarity in ambiguity, and unlock the potential for innovation and growth.
-                        It's not just about numbers and spreadsheets, it's about unraveling the secrets
+                        It&apos;s not just about numbers and spreadsheets, it&apos;s about unraveling the secrets
                         of the world and making a real difference. 
                         </p> 
                         <p className="font-medium">
