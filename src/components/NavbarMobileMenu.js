@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import CustomMobileLink from "./CustomMobileLink"
-import { TwitterIcon, GithubIcon, LinkedInIcon, PinterestIcon, DribbbleIcon , MoonIcon , SunIcon } from "./Icons"
+import { GithubIcon, LinkedInIcon, MoonIcon , SunIcon } from "./Icons"
 
 const NavbarMobileMenu = ({handleClick, mode, setMode }) => {
   return (

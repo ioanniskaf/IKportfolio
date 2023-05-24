@@ -4,7 +4,7 @@ import Head from "next/head"
 import Transition from "@/components/Transition"
 import FeaturedProject from "@/components/FeaturedProject"
 import Project from "@/components/Project"
-
+import powerBILogo from "../../public/images/projects/powerBILogo.png"
 import project1 from "../../public/images/projects/cosmote.jpg"
 import project2 from "../../public/images/projects/summz.jpg"
 
@@ -22,19 +22,20 @@ const projects = () => {
             <AnimatedText text="Imagination Trumps Knowledge!"
                 className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
             />
-            <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-                <div className="col-span-12">
-                    <FeaturedProject 
-                        title="COSMOTE National Benchmarking Campaign"
-                        img={project1}
-                        summary="A walk and drive National Benchmarking campaign that lasted 2 years. 3 operators, 20 Mobile Devices.
-                        Used R&S Swissqual and NDQI solution,  MS SQL Server Queries, MS Excel VBA , MS Power BI"
-                        link="/"
-                        github="/"
+            <div className="grid grid-cols-12 gap-x-6 gap-2 sm:gap-x-0">
+				<div className="flex items-center col-span-12">
+                    <FeaturedProject
+                        title="Power BI Dashboard"
+                        img={powerBILogo}
+                        summary="A fully functional Power BI Dashboard used for a Telco Benchmarking Campaign.
+						Data where collected for a total of 100 places in various cities and the results where presented in an interactive
+						way for the stakeholders to gain insights about their network performance."
+                        link="/project_BIReporting"
+                        github=""
                         type="Featured Project"
                     />
                 </div>
-                <div className="col-span-6 sm:col-span-12">
+                <div className="flex items-center col-span-6 sm:col-span-12">
                     <Project 
                             title="AI Summarizer using Chat-GPT4"
                             img={project2}
@@ -43,7 +44,7 @@ const projects = () => {
                             type="Project"
                         />
                 </div>
-                <div className="col-span-6 sm:col-span-12">
+                <div className="flex items-center col-span-6 sm:col-span-12">
                 <Project 
                             title="COSMOTE National Benchmarking Campaign"
                             img={project1}

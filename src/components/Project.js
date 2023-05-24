@@ -7,7 +7,7 @@ const FramerImage = motion(Image)
 
 const Project = ({title, type, img, link, github}) => {
     return (
-        <article className="w-full h-[70vh] flex flex-col items-center justify-center rounded-3xl
+        <article className="w-full h-[85%] flex flex-col items-center justify-center rounded-3xl
         border border-solid border-dark dark:border-light bg-light dark:bg-dark p-6 relative xs:p-4">
             <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%]
             rounded-[2rem] rounded-br-3xl bg-dark dark:bg-light
