@@ -25,7 +25,7 @@ const about = () => {
                         <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
                         <p className="font-medium">
                             Hello, I&apos;m Ioannis, an Electrical Engineer and Computer Scientinst
-                            with 6 years of working exprerience in Data Analysis , Data Engineering and Telecommunications
+                            with 5 years of working exprerience in Data Analysis , Data Engineering and Telecommunications
                             and a passion for Coding, Web Development and learning.
                         </p>
                         <p className="font-medium my-4">
