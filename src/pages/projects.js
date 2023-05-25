@@ -5,7 +5,6 @@ import Transition from "@/components/Transition"
 import FeaturedProject from "@/components/FeaturedProject"
 import Project from "@/components/Project"
 import powerBILogo from "../../public/images/projects/powerBILogo.png"
-import project1 from "../../public/images/projects/cosmote.jpg"
 import project2 from "../../public/images/projects/summz.jpg"
 
 
@@ -27,7 +26,7 @@ const projects = () => {
                     <FeaturedProject
                         title="Power BI Dashboard"
                         img={powerBILogo}
-                        summary="A fully functional Power BI Dashboard used for a Telco Benchmarking Campaign.
+                        summary="A dynamic Power BI Dashboard used for a Telco Performance Benchmarking Campaign.
 						Data where collected for a total of 100 places in various cities and the results where presented in an interactive
 						way for the stakeholders to gain insights about their network performance."
                         link="/project_BIReporting"
@@ -46,8 +45,8 @@ const projects = () => {
                 </div>
                 <div className="flex items-center col-span-6 sm:col-span-12">
                 <Project 
-                            title="COSMOTE National Benchmarking Campaign"
-                            img={project1}
+                            title="Benchmarking Campaign"
+                            img={powerBILogo}
                             link="/"
                             github="/"
                             type="Project"

@@ -17,11 +17,12 @@ const about = () => {
             <meta name="Ioannis Kafatos (iokaf.com) About Page" content="This is a sort biography , education and work experience information page." />
         </Head>
         <Transition />
-        <main className="flex w-full flex-col item-center justify-center dark:text-light">
+        <main className="flex w-full flex-col items-center dark:text-light">
             <Layout className="pt-16">
                 <AnimatedText className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" text='Passion Fuels Purpose!'/>
                 <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-                    <div className="col-span-3 xl:col-span-4 md:col-span-8 flex flex-col items-start justify-start md:order-2">
+
+                    <div className="col-span-3 2xl:col-span-4 lg:col-span-8 flex flex-col items-start justify-start lg:order-2">
                         <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
                         <p className="font-medium">
                             Hello, I&apos;m Ioannis, an Electrical Engineer and Computer Scientinst
@@ -39,8 +40,9 @@ const about = () => {
                             I look forward to the opportunity to bring my skills and passion to your next project.
                         </p>
                     </div>
-                    <div className="col-span-3 xl:col-span-4 md:col-span-8 relative h-max rounded-2xl
-                        border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light md:order-1"
+
+                    <div className="col-span-3 2xl:col-span-4 lg:col-span-8 relative h-max rounded-2xl
+                        border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light lg:order-1"
                     >
                         <div className="absolute top-0 -right-2 -z-10 w-[102%] h-[102%] rounded-[1rem] bg-dark dark:bg-light" />
                         <Image src={profilePic} alt="Ioannis Kafatos" className="w-full h-auto rounded-2xl"
@@ -50,7 +52,8 @@ const about = () => {
                             33vw'
                         />
                     </div>
-                    <div className="col-span-2 xl:col-span-8 flex flex-col xl:flex-row items-end xl:items-center justify-between md:order-3">
+
+                    <div className="col-span-2 2xl:col-span-8 flex flex-col 2xl:flex-row items-end 2xl:items-center justify-between lg:order-3">
                         <div className="flex flex-col items-end justify-center xl:items-center">
                             <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                                 <AnimatedNumbers value={12}/>+
@@ -70,6 +73,7 @@ const about = () => {
                             <h2 className="text-xl font -medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">year of experience</h2>
                         </div>
                     </div>
+
                 </div>
 
                 <Skills />

@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Allow: /
+
+Sitemap: http://iokaf.com/sitemap.xml

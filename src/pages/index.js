@@ -17,8 +17,8 @@ export default function Home() {
         <meta name="Ioannis Kafatos (iokaf.com) Hero Page" content="This is the main index page for my personal portfolio website." />
       </Head>
       <Transition />
-      <main className='flex items-center text-dark dark:text-light w-full min-h-screen'>
-        <Layout className='pt-0 md:pt-16 sm:pt-8'>
+      <main className='flex justify-center text-dark dark:text-light w-full min-h-screen'>
+        <Layout className='pt-16 md:pt-16 sm:pt-8'>
           <div className='flex lg:flex-col items-center justify-between w-full'>
             <div className='w-1/2 md:w-full'>
               <Image src={profilePic} alt="IoannisKafatos" className='w-full h-auto lg:hidden md:inline-block md:w-full'

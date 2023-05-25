@@ -34,13 +34,13 @@ const Skills = () => {
              "
                 whileHover={{scale:1.05}}
             >
-                Data Analysis
+                Data
             </motion.div>
             <Skill name="Mobile Testing" x="-18vw" y="10vw" />
             <Skill name="Nemo/TEMS/NQDI" x="-18vw" y="-16vw" />
             <Skill name="MS Excel" x="-5vw" y="-10vw" />
             <Skill name="Power BI" x="15vw" y="-5vw" />
-            <Skill name="SQL" x="25vw" y="15vw" />
+            <Skill name="SQL" x="18vw" y="15vw" />
             <Skill name="Python" x="20vw" y="-15vw" />
             <Skill name="ReactJS" x="-5vw" y="20vw" />
             <Skill name="Javascript" x="5vw" y="-20vw" />
