@@ -52,11 +52,13 @@ const Education = () => {
                     type="Integrated Master of Electrical and Computer Engineering (MEng ECE)"
                     time="2003-2008"
                     place="National Technical University of Athens"
-                    info="Flows
-                        Telecommunication Systems and Computer Networks, 
-                        Management and Decision Support Systems,
-                        Electric Power Systems, 
-                        Energy Conversion, High Voltages and Industry Applications."
+                    info={<>
+						Flows &#58;<br/>
+						&#x2022;Telecommunication Systems &amp; Computer Networks<br/>
+                        &#x2022;Management &amp; Decision Support Systems<br/>
+                        &#x2022;Electric Power Systems<br/>
+						&#x2022;High Voltages &amp; Industry Applications<br/>
+						</>}
                 />
                 <Details 
                     type="General Education"

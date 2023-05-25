@@ -34,7 +34,7 @@ export default function Home() {
                 className='text-left lg:!text-center !text-6xl xl:!text-5xl lg:!text-6xl md:!text-5xl sm:!text-3xl
               '/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                As a Electrical Engineer and Computer Scientist I have always been fancinated by Data Analysis because it provides me with a profound sense of discovery and empowerment.
+                As an Electrical Engineer and Computer Scientist I have always been fancinated by Data Analysis because it provides me with a profound sense of discovery and empowerment.
                 There&apos;s a thrilling adventure in exploring raw data, uncovering hidden patterns, and extracting meaningful insights.
                 The ability to transform complex, seemingly unrelated information into a coherent story is nothing short of magical. 
               </p>

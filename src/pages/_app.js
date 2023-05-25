@@ -21,6 +21,7 @@ export default function App({ Component, pageProps }) {
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
+	  <link rel="canonical" href="http://iokaf.com/" />
     </Head>
     <main className={`${montserrat.variable} bg-light dark:bg-dark font-mont flex flex-col items-center w-full min-h-screen`}>
       <Navbar />

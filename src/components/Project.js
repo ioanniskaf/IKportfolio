@@ -16,7 +16,7 @@ const Project = ({title, type, img, link, github}) => {
             <Link href={link} target="_blank"
                 className="w-full cursor-pointer overflow-hidden rounded-lg"
             >
-                    <FramerImage src={img} alt={title} className="w-full h-auto"
+                    <FramerImage src={img} alt={title} className="w-full h-[30vh]"
                         whileHover={{scale:1.05}}
                         transition={{duration: 0.2}}
                     />

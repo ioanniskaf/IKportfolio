@@ -18,7 +18,7 @@ const projects = () => {
     <Transition />
     <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
-            <AnimatedText text="Imagination Trumps Knowledge!"
+            <AnimatedText text="Creativity Takes Courage!"
                 className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
             />
             <div className="grid grid-cols-12 gap-x-6 gap-2 sm:gap-x-0">
@@ -44,11 +44,11 @@ const projects = () => {
                         />
                 </div>
                 <div className="flex items-center col-span-6 sm:col-span-12">
-                <Project 
-                            title="Benchmarking Campaign"
-                            img={powerBILogo}
-                            link="/"
-                            github="/"
+                    <Project 
+                            title="AI Summarizer using Chat-GPT4"
+                            img={project2}
+                            link="http://iokaf.com/ai-summarizer"
+                            github="https://github.com/ioanniskaf/ai-summarizer"
                             type="Project"
                         />
                 </div>
