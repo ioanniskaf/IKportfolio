@@ -20,7 +20,7 @@ const FeaturedProject = ({type,title,summary,img, link, github,git}) => {
                 <Link href={link}
                 className="flex items-center justify-center w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
                 >
-                    <FramerImage src={img} alt={title} className="w-[60%] h-auto"
+                    <FramerImage src={img} alt={title} className="w-3/4 h-auto"
                         whileHover={{scale:1.05}}
                         transition={{duration: 0.2}}
                         priority

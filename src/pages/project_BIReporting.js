@@ -71,7 +71,7 @@ const project_BIReporting = () => {
             	viewport={{once:true}}
             	className="grid grid-cols-12 gap-6 mb-10"
 			>
-				<div className="col-span-9 2xl:col-span-12">
+				<div className="col-span-9 xxl:col-span-12">
 					<a href={img1.src}>
 						<FramerImage src={img1} alt="CustomWeight"
 							whileHover={{scale:1.05}}
@@ -79,8 +79,8 @@ const project_BIReporting = () => {
 						/>
 					</a>
 				</div>
-				<div className="col-span-3 2xl:col-span-12 pl-4 2xl:pl-0">
-					<p className="w-full 2xl:text-justify font-medium text-left text-md md:text-sm text-dark/60 dark:text-light/60">
+				<div className="col-span-3 xxl:col-span-12 pl-4 xxl:pl-0">
+					<p className="w-full xxl:text-justify font-medium text-left text-md md:text-sm text-dark/60 dark:text-light/60">
 						All different places have a unique ID named &quot;CODE&quot; which is the 
 						connection between measurement files and places thus giving us the ability
 						to aggregate results not only based on this ID but all the information that
@@ -95,8 +95,8 @@ const project_BIReporting = () => {
             	viewport={{once:true}}
             	className="grid grid-cols-12 gap-2 mb-10"
 			>
-				<div className="col-span-3 2xl:col-span-12 pr-4 2xl:pr-0 2xl:order-2">
-					<p className="w-full 2xl:text-justify font-medium text-left text-md md:text-sm text-dark/60 dark:text-light/60">
+				<div className="col-span-3 xxl:col-span-12 pr-4 xxl:pr-0 xxl:order-2">
+					<p className="w-full xxl:text-justify font-medium text-left text-md md:text-sm text-dark/60 dark:text-light/60">
 						There is a default weight distribution to initially calculate
 						the scores or grades, meaning the network performance in various tests.
 						After the initial calculation and by using the sliders in the dashboard stakeholders
@@ -104,7 +104,7 @@ const project_BIReporting = () => {
 						of the correct weight distribution and identify aspects of interest. 
 					</p>
 				</div>
-				<div className="col-span-9 2xl:col-span-12 2xl:order-1">
+				<div className="col-span-9 xxl:col-span-12 xxl:order-1">
 					<a href={img2.src}>
 						<FramerImage src={img2} alt="GradingSystem"
 							whileHover={{scale:1.05}}
@@ -119,7 +119,7 @@ const project_BIReporting = () => {
             	viewport={{once:true}}
             	className="grid grid-cols-12 gap-6 mb-10"
 			>
-				<div className="col-span-9 2xl:col-span-12">
+				<div className="col-span-9 xxl:col-span-12">
 					<a href={img3.src}>
 						<FramerImage src={img3} alt="Model"
 							whileHover={{scale:1.05}}
@@ -127,8 +127,8 @@ const project_BIReporting = () => {
 						/>
 					</a>
 				</div>
-				<div className="col-span-3 2xl:col-span-12 pl-4 2xl:pl-0">
-					<p className="w-full 2xl:text-justify font-medium text-left text-md md:text-sm text-dark/60 dark:text-light/60">
+				<div className="col-span-3 xxl:col-span-12 pl-4 xxl:pl-0">
+					<p className="w-full xxl:text-justify font-medium text-left text-md md:text-sm text-dark/60 dark:text-light/60">
 						Finally, the Power BI model relationships where the &quot;MeasurementFile&quot; table 
 						along with the associated information, acts as the main node of the system. Additionally,
 						a number of other &quot;Measurements&quot;, as described in Power BI, have been calculated in order to make

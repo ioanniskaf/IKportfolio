@@ -7,7 +7,7 @@ const FramerImage = motion(Image)
 
 const Project = ({title, type, img, link, github}) => {
     return (
-        <article className="w-full h-[85%] flex flex-col items-center justify-center rounded-3xl
+        <article className="w-full mt-16 h-auto flex flex-col items-center justify-center rounded-3xl
         border border-solid border-dark dark:border-light bg-light dark:bg-dark p-6 relative xs:p-4">
             <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%]
             rounded-[2rem] rounded-br-3xl bg-dark dark:bg-light
@@ -16,11 +16,11 @@ const Project = ({title, type, img, link, github}) => {
             <Link href={link} target="_blank"
                 className="w-full cursor-pointer overflow-hidden rounded-lg"
             >
-                    <FramerImage src={img} alt={title} className="w-full h-[30vh]"
+                    <FramerImage src={img} alt={title} className="w-full h-auto"
                         whileHover={{scale:1.05}}
                         transition={{duration: 0.2}}
                     />
-             </Link>
+            </Link>
             <div className="w-full flex flex-col items-start justify-between mt-4">
                 <span className="text-primary dark:text-primaryDark font-medium text-xl lg:text-lg md:text-base">{type}</span>
                 <Link href={link} target="_blank" className="hover:underline underline-offset-2">

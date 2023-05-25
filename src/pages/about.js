@@ -24,7 +24,7 @@ const about = () => {
 					text='Imagine Believe Achieve!'
 				/>
                 <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-                    <div className="col-span-3 2xl:col-span-4 lg:col-span-8 flex flex-col items-start justify-start lg:order-2">
+                    <div className="col-span-3 xxl:col-span-4 lg:col-span-8 flex flex-col items-start justify-start lg:order-2">
                         <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
                         <p className="font-medium">
                             Hi, I&apos;m Ioannis, an MEng in Electrical Engineering and Computer Science
@@ -43,7 +43,7 @@ const about = () => {
                             I look forward to the opportunity to bring my skills, passion and commitment into your next project.
                         </p>
                     </div>
-                    <div className="col-span-3 2xl:col-span-4 lg:col-span-8 relative h-max rounded-2xl
+                    <div className="col-span-3 xxl:col-span-4 lg:col-span-8 relative h-max rounded-2xl
                         border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light lg:order-1"
                     >
                         <div className="absolute top-0 -right-2 -z-10 w-[102%] h-[102%] rounded-[1rem] bg-dark dark:bg-light" />
@@ -54,7 +54,7 @@ const about = () => {
                             33vw'
                         />
                     </div>
-                    <div className="col-span-2 2xl:col-span-8 flex flex-col 2xl:flex-row items-end 2xl:items-center justify-between lg:order-3">
+                    <div className="col-span-2 xxl:col-span-8 flex flex-col xxl:flex-row items-end xxl:items-center justify-between lg:order-3">
                         <div className="flex flex-col items-end justify-center xl:items-center">
                             <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                                 <AnimatedNumbers value={12}/>+

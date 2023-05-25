@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <Head>
-      <title>IoannisKafatos | Personal Portfolio Website</title>
-        <meta name="Ioannis Kafatos (iokaf.com) Hero Page" content="This is the main index page for my personal portfolio website." />
+      	<title>IoannisKafatos | Personal Portfolio Website</title>
+      	<meta name="Ioannis Kafatos (iokaf.com) Hero Page" content="This is the main index page for my personal portfolio website." />
       </Head>
       <Transition />
       <main className='flex justify-center text-dark dark:text-light w-full min-h-screen'>
