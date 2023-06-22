@@ -15,7 +15,7 @@ const NavbarMobileMenu = ({handleClick, mode, setMode }) => {
             <CustomMobileLink href ="/" title="Home" className="" toggle={handleClick}/>
             <CustomMobileLink href ="/about" title="About" className="" toggle={handleClick}/>
             <CustomMobileLink href ="/projects" title="Projects" className="" toggle={handleClick}/>
-            <CustomMobileLink href ="/articles" title="Articles" className="" toggle={handleClick}/>
+            {/* <CustomMobileLink href ="/articles" title="Articles" className="" toggle={handleClick}/> */}
         </nav>
         <nav className="flex items-center justify-center flex-wrap mt-4">
             <motion.a href="https://github.com/ioanniskaf" target={"_blank"}

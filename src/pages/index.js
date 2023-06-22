@@ -8,9 +8,8 @@ import AnimatedText from '@/components/AnimatedText'
 import HireMe from '@/components/HireMe'
 import Transition from '@/components/Transition'
 
-
 export default function Home() {
-  return (
+	return (
     <>
       <Head>
       	<title>IoannisKafatos | Personal Portfolio Website</title>
@@ -20,7 +19,7 @@ export default function Home() {
       <main className='flex justify-center text-dark dark:text-light w-full min-h-screen'>
         <Layout className='pt-16 md:pt-16 sm:pt-8'>
           <div className='flex lg:flex-col items-center justify-between w-full'>
-            <div className='w-1/2 md:w-full'>
+			<div className='w-1/2 md:w-full'>
               <Image src={profilePic} alt="IoannisKafatos" className='w-full h-auto lg:hidden md:inline-block md:w-full'
                 priority
                 sizes='(max-width: 768px) 100vw,
@@ -34,12 +33,12 @@ export default function Home() {
                 className='text-left lg:!text-center !text-6xl xl:!text-5xl lg:!text-6xl md:!text-5xl sm:!text-3xl
               '/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                As an Electrical Engineer and Computer Scientist I have always been fancinated by Data Analysis because it provides me with a profound sense of discovery and empowerment.
+                As an Electrical Engineer and Computer Scientist I have always been fancinated by Data Analysis.
                 There&apos;s a thrilling adventure in exploring raw data, uncovering hidden patterns, and extracting meaningful insights.
                 The ability to transform complex, seemingly unrelated information into a coherent story is nothing short of magical. 
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href='/engCV_ioanniskafatos.pdf' target={"_blank"}
+                <Link href='/ioanniskafatosCV.pdf' target={"_blank"}
                   className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                     hover:bg-light hover:text-dark
                     border-2 border-solid border-transparent hover:border-dark

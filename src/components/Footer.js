@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='flex items-center lg:py-1 xs:text-xs'>
                 Build With <span className='text-primary dark:text-primaryDark text-2xl px-1 xs:text-xs'>&#9825;</span>
                 by &nbsp; 
-                <Link href="https://www.google.com"
+                <Link href="https://www.linkedin.com/in/ioanniskafatos/"
                     className="underline underline-offset-2 xs:text-xs"
                     target={"_blank"}
                 >

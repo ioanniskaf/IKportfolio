@@ -31,13 +31,10 @@ const project_BIReporting = () => {
 
 			<div className="mt-4 mb-10 w-full">
 				<p className="text-justify font-medium w-full md:text-sm">
-					Initially exporting data in raw .csv files from specialized  mobile network analysis
-					tool using embedded SQL query functionality. Then, using created Excel VBA tool, a main 
-					Excel workbook with all required tables is populated in different sheets with data, after cleaning and 
-					adjustments were made. This workbook is the data source for the dashboard which was designed 
-					to present the results in two main categories, Data and Voice performance. Added functionality of
-					setting custom weight parameters in each subcategory in order to adjust to any future requirements or different
-					testing enviroment<br/>
+					Exported data in raw .csv files, created Excel VBA tool for cleaning and 
+					adjustments. These exports act as the data source for the dashboard which was designed 
+					to present the results in two main categories of performance. Added functionality of
+					setting custom weight parameters in each category in order align with customer needs.<br/>
 					<br/>
 					Tools Used :<br/>
 					<br/>
@@ -81,8 +78,8 @@ const project_BIReporting = () => {
 				</div>
 				<div className="col-span-3 xxl:col-span-12 pl-4 xxl:pl-0">
 					<p className="w-full xxl:text-justify font-medium text-left text-md md:text-sm text-dark/60 dark:text-light/60">
-						All different places have a unique ID named &quot;CODE&quot; which is the 
-						connection between measurement files and places thus giving us the ability
+						All different areas have a unique ID named &quot;CODE&quot; which is the 
+						connection between files and places thus giving us the ability
 						to aggregate results not only based on this ID but all the information that
 						this ID is associated with like Type, City, Subtype etc. There is also the function
 						of adjusting, via a correction factor, the weights of each test as per request.
@@ -97,11 +94,11 @@ const project_BIReporting = () => {
 			>
 				<div className="col-span-3 xxl:col-span-12 pr-4 xxl:pr-0 xxl:order-2">
 					<p className="w-full xxl:text-justify font-medium text-left text-md md:text-sm text-dark/60 dark:text-light/60">
-						There is a default weight distribution to initially calculate
-						the scores or grades, meaning the network performance in various tests.
+						Default weight distribution to calculate
+						the scores or grades, meaning the performance in various tests.
 						After the initial calculation and by using the sliders in the dashboard stakeholders
-						are able to manipulate the grading system in order to obtain results based on their opinion
-						of the correct weight distribution and identify aspects of interest. 
+						are able to manipulate the grading system in order to obtain results based on their desired
+						weight distribution and identify aspects of interest. 
 					</p>
 				</div>
 				<div className="col-span-9 xxl:col-span-12 xxl:order-1">

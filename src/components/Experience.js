@@ -53,34 +53,33 @@ const Experience = () => {
                 "/>
             <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                 <Details 
-                    position="RNO Department Team Leader"
+                    position="RF Optimization Engineer"
                     company="Fasmetrics SA"
                     companyLink="https://www.fasmetrics.com/index.php/en/"
                     time="2017-2022"
                     address="Athens, Greece"
-                    work="Lead a team of Telecommunication Engineers (RNO) and Drive Test Teams in performing tasks related with the mobile network analysis for several project in
-                    the general South Eastern Europe region and for a variaty of well-known companies."
+                    work="Involved in numerous projects and worked with leading Operators, Vendors and Service providers 
+					in general Eastern Europe area, lead technical teams in data analysis and network optimization activities, 
+					delivered technical consultancy and build solid expertise in all aspects of performance management process."
                 />
                 <Details 
-                    position="Telecommunications Engineer"
+                    position="Junior RF Optimization Engineer"
                     company="Fasmetrics SA"
                     companyLink="https://www.fasmetrics.com/index.php/en/"
                     time="2016-2017"
                     address="Athens, Greece"
-                    work="Worked on a team responsible analyzing captured mobile network data, performing incident analysis, designing and creating
-                    reports in accordance with customer needs.
-                    
-                    
-                    ."
+                    work="Acquired proficient knowledge of mobile communications and principles of GSM/UMTS/LTE/5G technologies, 
+					signaling flow and protocols, electromagnetic theory, radio transmission and antenna systems."
                 />
                 <Details 
-                    position="RF Mobile Drive Test Engineer"
+                    position="RF Field Test Engineer"
                     company="Fasmetrics SA"
                     companyLink="https://www.fasmetrics.com/index.php/en/"
                     time="2015-2016"
                     address="Athens, Greece"
-                    work="Worked as a Drive Test RF engineer, on the field, configuring data capturing devices and tools 
-                    designing routes and collecting mobile network data. Additionally, perfomed initial raw data cleaning, screening and refining."
+                    work="Gained valuable work experience on the field, 
+					acquainted with key concepts of telecommunications, 
+					RF principles and wireless applications."
                 />
             </ul>
         </div>
