@@ -8,7 +8,8 @@ import Education from "@/components/Education"
 import Transition from "@/components/Transition"
 import AnimatedText from "@/components/AnimatedText"
 import AnimatedNumbers from "@/components/AnimatedNumbers"
-import Companies from "@/components/Companies"
+import Clients from "@/components/Clients"
+import Projects from "@/components/Projects"
 
 const about = () => {
   return (
@@ -22,7 +23,7 @@ const about = () => {
             <Layout className="pt-16">
                 <AnimatedText
 					className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
-					text='Imagine Believe Achieve!'
+					text='A Few Words on Me'
 				/>
                 <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 lg:place-items-stretch">
 					<div className="flex flex-col items-center w-full xxl:w-[80%] lg:w-[60%] xs:w-[80%] h-max col-span-3 xxl:col-span-4 lg:col-span-8 relative rounded-2xl
@@ -39,27 +40,25 @@ const about = () => {
                     <div className="col-span-3 xxl:col-span-4 lg:col-span-8 flex flex-col items-start justify-start lg:order-1">
                         <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
                         <p className="font-medium">
-                            Hi, I&apos;m Ioannis, MEng in Electrical Engineering and Computer Science
-                            with 6 years professional exprerience as RF Optimization Engineer.
-							During my career I have been involved in numerous projects analyzing and optimizing 
-							telecommunications systems, developing  performance measurement frameworks, 
-							ensuring consistency and strategic alignment by formulating questions, developing hypotheses, interpreting 
-							and validating data and distinguishing observations from insights.
+                            Hi, I&apos;m Ioannis, MEng in Electrical Engineering and Computer Science. In my professional 
+							career I have worked as an RF Optimization Engineer , Field Engineer and Data Analyst and have gained 
+							valuable practical experience in the fields of Telecommunications, Data Analytics, Programming 
+							and Project Management. I was involved in numerous projects where my role was to analyze 
+							and optimize telecommunications systems, develop and maintain performance measurement frameworks while 
+							ensuring consistency and strategic alignment. 
                         </p>
                         <p className="font-medium my-4">
 							My expertise in Data and Performance Analysis has helped me make informed decisions,
-							solve intricate problems, and drive impactful changes, find clarity in ambiguity,
-							and unlock the potential for innovation and growth. For me, it&apos;s not just about 
+							solve intricate problems, drive impactful changes and unlock the potential for innovation 
+							and growth. For me, it&apos;s not just about 
 							numbers and spreadsheets, it&apos;s about unraveling the secrets
-                        	of the world and making a real difference. My strong mathematical and IT background,
-							focused on statistical analysis and data exploration, provides me with the aptitude to
-							see the bigger picture, provide insights and analysis through storytelling and contextualizing data to management 
-							and stakeholders. Additionally, I have gained experience in project management, 
-							process improvement, and cross-functional collaboration.
+                        	of the world and making a real difference.
                         </p> 
                         <p className="font-medium">
-							In every project I am working on I bring my commitment to goal achievement and customer-centered thinking.
-                            I look forward to the opportunity to bring my skills, passion and commitment into your next project.
+							In every project I am working on I bring my high work ethic and my desire and commitment to take on 
+							responsibilities and achieve goals. I am constantly looking for new ways to improve myself and 
+							others around me in order to able to contibute more to the company or to the clients I am working with.
+                            I look forward to the opportunity to bring my skills, passion and experience into your next project.
                         </p>
                     </div>
                     <div className="col-span-2 xxl:col-span-8 flex flex-col xxl:flex-row items-end xxl:items-center justify-between lg:order-3">
@@ -67,7 +66,7 @@ const about = () => {
                             <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                                 <AnimatedNumbers value={12}/>+
                             </span>
-                            <h2 className="text-xl font -medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">satisfied Customers</h2>
+                            <h2 className="text-xl font -medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">satisfied Clients</h2>
                         </div>
                         <div className="flex flex-col items-end justify-center xl:items-center">
                             <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
@@ -77,14 +76,15 @@ const about = () => {
                         </div>
                         <div className="flex flex-col items-end justify-center xl:items-center">
                             <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                                <AnimatedNumbers value={6}/>+
+                                <AnimatedNumbers value={7}/>+
                             </span>
-                            <h2 className="text-xl font -medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">year of experience</h2>
+                            <h2 className="text-xl font -medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">years of experience</h2>
                         </div>
                     </div>
 
                 </div>
-				<Companies />
+				<Clients />
+				{/* <Projects /> */}
                 <Skills />
                 <Experience />
                 <Education />

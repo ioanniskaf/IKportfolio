@@ -19,7 +19,7 @@ const projects = () => {
     <Transition />
     <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
-            <AnimatedText text="Creativity Takes Courage!"
+            <AnimatedText text="A sample of my work"
                 className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
             />
             <div className="grid grid-cols-12 gap-x-6 gap-2 sm:gap-x-0">

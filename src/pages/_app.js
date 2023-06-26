@@ -5,6 +5,7 @@ import { Montserrat } from "next/font/google"
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { AnimatePresence } from 'framer-motion'
+// import { useEffect } from 'react'
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -12,6 +13,12 @@ const montserrat = Montserrat({
 })
 
 export default function App({ Component, pageProps }) {
+
+//   useEffect(() => {
+// 	fetch("http://localhost:5000/")
+// 	  .catch(err => console.log(err))
+// 	}, [])
+
   const router = useRouter()
   return (
   <>

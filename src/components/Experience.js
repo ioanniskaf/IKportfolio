@@ -40,8 +40,8 @@ const Experience = () => {
     )
   
     return (
-    <div className="my-64">
-        <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+    <div className="my-32">
+        <h2 className="font-bold text-8xl mb-24 w-full text-center md:text-6xl xs:text-4xl md:mb-12">
             Experience
         </h2>
         <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
@@ -56,7 +56,7 @@ const Experience = () => {
                     position="RF Optimization Engineer"
                     company="Fasmetrics SA"
                     companyLink="https://www.fasmetrics.com/index.php/en/"
-                    time="2017-2022"
+                    time="2017-2023"
                     address="Athens, Greece"
                     work="Involved in numerous projects and worked with leading Operators, Vendors and Service providers 
 					in general Eastern Europe area, lead technical teams in data analysis and network optimization activities, 

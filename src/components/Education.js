@@ -36,8 +36,8 @@ const Education = () => {
     )
   
     return (
-    <div className="my-64">
-        <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+    <div className="my-32">
+        <h2 className="font-bold text-8xl mb-24 w-full text-center md:text-6xl xs:text-4xl md:mb-12">
             Education
         </h2>
         <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
@@ -50,7 +50,6 @@ const Education = () => {
             <ul className="w-full flex flex-col items-start justify-between ml-2 xs:ml-2">
                 <Details 
                     type="Integrated Master of Electrical and Computer Engineering (MEng ECE)"
-                    time="2003-2008"
                     place="National Technical University of Athens"
                     info={<>
 						Flows &#58;<br/>
@@ -62,7 +61,6 @@ const Education = () => {
                 />
                 <Details 
                     type="General Education"
-                    time="2000-2003"
                     place="1st General Lyceum Rethymno Crete"
                     info="Graduate with Highest Honors."
                 />
