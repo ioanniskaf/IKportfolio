@@ -39,7 +39,7 @@ const projects = () => {
                     <Project 
                             title="My Personal Website"
                             img={portfolio}
-                            link="https://iokaf.com/"
+                            link="http://iokaf.com/"
                             github="https://github.com/ioanniskaf/IKportfolio"
                             type="Project"
                         />

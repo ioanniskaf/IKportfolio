@@ -40,12 +40,12 @@ const about = () => {
                     <div className="col-span-3 xxl:col-span-4 lg:col-span-8 flex flex-col items-start justify-start lg:order-1">
                         <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
                         <p className="font-medium">
-                            Hi, I&apos;m Ioannis, MEng in Electrical Engineering and Computer Science. In my professional 
+                            Hi, I&apos;m Ioannis, MEng in Electrical Engineering and Computer Science. During my professional 
 							career I have worked as an RF Optimization Engineer , Field Engineer and Data Analyst and have gained 
 							valuable practical experience in the fields of Telecommunications, Data Analytics, Programming 
 							and Project Management. I was involved in numerous projects where my role was to analyze 
-							and optimize telecommunications systems, develop and maintain performance measurement frameworks while 
-							ensuring consistency and strategic alignment. 
+							and optimize telecommunications systems, develop and maintain performance measurement frameworks helping Operators
+							Vendors and Service Providers assess, evaluate and improve their network and customer's experience.
                         </p>
                         <p className="font-medium my-4">
 							My expertise in Data and Performance Analysis has helped me make informed decisions,
@@ -55,9 +55,9 @@ const about = () => {
                         	of the world and making a real difference.
                         </p> 
                         <p className="font-medium">
-							In every project I am working on I bring my high work ethic and my desire and commitment to take on 
-							responsibilities and achieve goals. I am constantly looking for new ways to improve myself and 
-							others around me in order to able to contibute more to the company or to the clients I am working with.
+							In every project I am working on I bring my problem solving skills, my goal oriented mindset and my high level of
+							work ethic. I am always willing to take on responsibilities and achieve goals. I enjoy looking for new ways to 
+							improve my skills in order to able to contibute more to the company or to the clients I am working with.
                             I look forward to the opportunity to bring my skills, passion and experience into your next project.
                         </p>
                     </div>
