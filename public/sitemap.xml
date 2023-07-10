@@ -19,12 +19,6 @@
 	<priority>0.8</priority>
   </url>
   <url>
-    <loc>http://iokaf.com/articles/</loc>
-	<lastmod>2023-05-25</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://iokaf.com/project_BIReporting/</loc>
 	<lastmod>2023-05-25</lastmod>
 	<changefreq>weekly</changefreq>
